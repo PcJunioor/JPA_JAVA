@@ -14,7 +14,8 @@
         <class>com.pcjunior.modelo.umpramuitos.Pedido</class>
         <class>com.pcjunior.modelo.muitospramuitos.Tio</class>
         <class>com.pcjunior.modelo.muitospramuitos.Sobrinho</class>
-        
+        <class>com.pcjunior.modelo.muitospramuitos.Filme</class>
+        <class>com.pcjunior.modelo.muitospramuitos.Ator</class>
         
         
         <properties>
