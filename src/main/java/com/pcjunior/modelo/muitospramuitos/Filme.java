@@ -25,6 +25,9 @@ public class Filme {
 
     private Double nota;
 
+    private Double media;
+    
+
     @ManyToMany(cascade = CascadeType.PERSIST)
     @JoinTable
     (
@@ -37,10 +40,16 @@ public class Filme {
     public Filme() {
     }
 
+    public Filme(String nome, Double nota, Double media) {
+        this.nome = nome;
+        this.nota = nota;
+    }
+
     public Filme(String nome, Double nota) {
         this.nome = nome;
         this.nota = nota;
     }
+    
 
     public Long getId() {
         return id;
@@ -87,6 +96,14 @@ public class Filme {
                 ator.getFilmes().add(this);
             }
         }
+    }
+
+    public Double getMedia() {
+        return media;
+    }
+
+    public void setMedia(Double media) {
+        this.media = media;
     }
      
 

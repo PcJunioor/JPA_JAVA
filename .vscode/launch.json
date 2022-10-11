@@ -1,0 +1,161 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch NovoAluno",
+            "request": "launch",
+            "mainClass": "com.pcjunior.teste.heranca.NovoAluno",
+            "projectName": "exercicios-jpa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlterarProduto",
+            "request": "launch",
+            "mainClass": "com.pcjunior.teste.basico.AlterarProduto",
+            "projectName": "exercicios-jpa"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlterarUsuario1",
+            "request": "launch",
+            "mainClass": "com.pcjunior.teste.basico.AlterarUsuario1",
+            "projectName": "exercicios-jpa"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlterarUsuario2",
+            "request": "launch",
+            "mainClass": "com.pcjunior.teste.basico.AlterarUsuario2",
+            "projectName": "exercicios-jpa"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlterarUsuario3",
+            "request": "launch",
+            "mainClass": "com.pcjunior.teste.basico.AlterarUsuario3",
+            "projectName": "exercicios-jpa"
+        },
+        {
+            "type": "java",
+            "name": "Launch NovoProduto",
+            "request": "launch",
+            "mainClass": "com.pcjunior.teste.basico.NovoProduto",
+            "projectName": "exercicios-jpa"
+        },
+        {
+            "type": "java",
+            "name": "Launch NovoUsuario",
+            "request": "launch",
+            "mainClass": "com.pcjunior.teste.basico.NovoUsuario",
+            "projectName": "exercicios-jpa"
+        },
+        {
+            "type": "java",
+            "name": "Launch ObterProdutos",
+            "request": "launch",
+            "mainClass": "com.pcjunior.teste.basico.ObterProdutos",
+            "projectName": "exercicios-jpa"
+        },
+        {
+            "type": "java",
+            "name": "Launch ObterUsuario",
+            "request": "launch",
+            "mainClass": "com.pcjunior.teste.basico.ObterUsuario",
+            "projectName": "exercicios-jpa"
+        },
+        {
+            "type": "java",
+            "name": "Launch ObterUsuarios",
+            "request": "launch",
+            "mainClass": "com.pcjunior.teste.basico.ObterUsuarios",
+            "projectName": "exercicios-jpa"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoverProduto",
+            "request": "launch",
+            "mainClass": "com.pcjunior.teste.basico.RemoverProduto",
+            "projectName": "exercicios-jpa"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoverUsuario",
+            "request": "launch",
+            "mainClass": "com.pcjunior.teste.basico.RemoverUsuario",
+            "projectName": "exercicios-jpa"
+        },
+        {
+            "type": "java",
+            "name": "Launch ObterFilmes",
+            "request": "launch",
+            "mainClass": "com.pcjunior.teste.consulta.ObterFilmes",
+            "projectName": "exercicios-jpa"
+        },
+        {
+            "type": "java",
+            "name": "Launch ObterMediaFilmes",
+            "request": "launch",
+            "mainClass": "com.pcjunior.teste.consulta.ObterMediaFilmes",
+            "projectName": "exercicios-jpa"
+        },
+        {
+            "type": "java",
+            "name": "Launch NovoFilmeAtor",
+            "request": "launch",
+            "mainClass": "com.pcjunior.teste.muitospramuitos.NovoFilmeAtor",
+            "projectName": "exercicios-jpa"
+        },
+        {
+            "type": "java",
+            "name": "Launch NovoTioSobrinho",
+            "request": "launch",
+            "mainClass": "com.pcjunior.teste.muitospramuitos.NovoTioSobrinho",
+            "projectName": "exercicios-jpa"
+        },
+        {
+            "type": "java",
+            "name": "Launch NovoPedido",
+            "request": "launch",
+            "mainClass": "com.pcjunior.teste.umpramuitos.NovoPedido",
+            "projectName": "exercicios-jpa"
+        },
+        {
+            "type": "java",
+            "name": "Launch ObterPedido",
+            "request": "launch",
+            "mainClass": "com.pcjunior.teste.umpramuitos.ObterPedido",
+            "projectName": "exercicios-jpa"
+        },
+        {
+            "type": "java",
+            "name": "Launch NovoClienteAssento1",
+            "request": "launch",
+            "mainClass": "com.pcjunior.teste.umpraum.NovoClienteAssento1",
+            "projectName": "exercicios-jpa"
+        },
+        {
+            "type": "java",
+            "name": "Launch NovoClienteAssento2",
+            "request": "launch",
+            "mainClass": "com.pcjunior.teste.umpraum.NovoClienteAssento2",
+            "projectName": "exercicios-jpa"
+        },
+        {
+            "type": "java",
+            "name": "Launch ObterClienteAssento",
+            "request": "launch",
+            "mainClass": "com.pcjunior.teste.umpraum.ObterClienteAssento",
+            "projectName": "exercicios-jpa"
+        }
+    ]
+}

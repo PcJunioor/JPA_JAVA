@@ -1,11 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<persistence version="2.1" 
+<persistence version="2.2" 
     xmlns="http://xmlns.jcp.org/xml/ns/persistence"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
-    <persistence-unit name="exercicios-jpa">
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+    <persistence-unit name="exercicios-jpa" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        
+        <mapping-file>META-INF/consultas.xml</mapping-file>
 
+        
+        
         <class>com.pcjunior.modelo.basico.Usuario</class>
         <class>com.pcjunior.modelo.basico.Poduto</class>
         <class>com.pcjunior.modelo.umapraum.Cliente</class>
@@ -16,6 +20,12 @@
         <class>com.pcjunior.modelo.muitospramuitos.Sobrinho</class>
         <class>com.pcjunior.modelo.muitospramuitos.Filme</class>
         <class>com.pcjunior.modelo.muitospramuitos.Ator</class>
+        <class>com.pcjunior.modelo.composicao.Endereco</class>
+        <class>com.pcjunior.modelo.composicao.Fornecedor</class>
+        <class>com.pcjunior.modelo.composicao.Funcionario</class>
+        <class>com.pcjunior.modelo.consulta.NotaFilme</class>
+        <class>com.pcjunior.modelo.heranca.Aluno</class>
+        <class>com.pcjunior.modelo.heranca.AlunoBolsista</class>
         
         
         <properties>
